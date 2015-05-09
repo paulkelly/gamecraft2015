@@ -6,7 +6,7 @@ public class playerProfectileFireScript : MonoBehaviour {
 	public Vector2 aimAngle = new Vector2 ();
 	public bool fireTrue;
 	public GameObject projectile;
-	public Object currentProjectile;
+	public GameObject currentProjectile;
 
 	// Use this for initialization
 	void Start () {
@@ -24,8 +24,11 @@ public class playerProfectileFireScript : MonoBehaviour {
 		if (fireTrue == true)
 		{
 
-			currentProjectile = Instantiate(projectile, new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z), Quaternion.identity);
+			currentProjectile = (GameObject) Instantiate(projectile, new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z), Quaternion.identity);
 
+			Vector3 aimAngle3D = aimAngle;
+
+			currentProjectile.transform.rotation = Quaternion.Euler(aimAngle);
 			fireTrue = false;
 
 		}
