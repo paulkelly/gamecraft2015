@@ -10,6 +10,8 @@ namespace QueenOfTheCastle.Character
 			get;
 		}
 
+		void Kill();
+
 		void Move(Vector2 value);
 		void Aim(Vector2 value);
 		

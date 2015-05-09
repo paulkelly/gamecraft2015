@@ -62,6 +62,7 @@ ModelImporter:
     100108: gamecraft_Skeleton
     100110: gamecraft_Spine
     100112: //RootNode
+    100114: gamecraft_knight
     400000: gamecraft_body
     400002: gamecraft_Chest
     400004: gamecraft_Head
@@ -119,13 +120,16 @@ ModelImporter:
     400108: gamecraft_Skeleton
     400110: gamecraft_Spine
     400112: //RootNode
+    400114: gamecraft_knight
     4300000: gamecraft_body
+    4300002: gamecraft_knight
     7400000: Jump
     7400002: Fall
     7400004: Jump-Run
     7400006: Jump-Fall
     9500000: //RootNode
     13700000: gamecraft_body
+    13700002: gamecraft_knight
   materials:
     importMaterials: 1
     materialName: 0

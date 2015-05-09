@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 4958ad8e5f75b89438614185fe0b0cb7
+timeCreated: 1431187077
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arrow1
+    100002: Body
+    100004: Bow1
+    100006: Hair
+    100008: Head_GRP
+    100010: Helmet
+    100012: //RootNode
+    100014: KnightNew_GRP
+    100016: LeftArm
+    100018: LeftArm_GRP
+    100020: LeftFoot
+    100022: LeftHand
+    100024: LeftHand_GRP
+    100026: LeftLeg
+    100028: LeftLeg_GRP
+    100030: LeftThumb
+    100032: PonyTail
+    100034: RightArm
+    100036: RightArm_GRP
+    100038: RightFoot
+    100040: RightHand
+    100042: RightHand_GRP
+    100044: RightLeg
+    100046: RightLeg_GRP
+    100048: RightThumb
+    100050: Stone
+    100052: Sword
+    400000: Arrow1
+    400002: Body
+    400004: Bow1
+    400006: Hair
+    400008: Head_GRP
+    400010: Helmet
+    400012: //RootNode
+    400014: KnightNew_GRP
+    400016: LeftArm
+    400018: LeftArm_GRP
+    400020: LeftFoot
+    400022: LeftHand
+    400024: LeftHand_GRP
+    400026: LeftLeg
+    400028: LeftLeg_GRP
+    400030: LeftThumb
+    400032: PonyTail
+    400034: RightArm
+    400036: RightArm_GRP
+    400038: RightFoot
+    400040: RightHand
+    400042: RightHand_GRP
+    400044: RightLeg
+    400046: RightLeg_GRP
+    400048: RightThumb
+    400050: Stone
+    400052: Sword
+    2300000: Arrow1
+    2300002: Body
+    2300004: Bow1
+    2300006: Hair
+    2300008: Helmet
+    2300010: LeftArm
+    2300012: LeftFoot
+    2300014: LeftHand
+    2300016: LeftLeg
+    2300018: LeftThumb
+    2300020: PonyTail
+    2300022: RightArm
+    2300024: RightFoot
+    2300026: RightHand
+    2300028: RightLeg
+    2300030: RightThumb
+    2300032: Stone
+    2300034: Sword
+    3300000: Arrow1
+    3300002: Body
+    3300004: Bow1
+    3300006: Hair
+    3300008: Helmet
+    3300010: LeftArm
+    3300012: LeftFoot
+    3300014: LeftHand
+    3300016: LeftLeg
+    3300018: LeftThumb
+    3300020: PonyTail
+    3300022: RightArm
+    3300024: RightFoot
+    3300026: RightHand
+    3300028: RightLeg
+    3300030: RightThumb
+    3300032: Stone
+    3300034: Sword
+    4300000: Body
+    4300002: Hair
+    4300004: LeftArm
+    4300006: LeftHand
+    4300008: LeftThumb
+    4300010: RightArm
+    4300012: RightHand
+    4300014: RightThumb
+    4300016: PonyTail
+    4300018: Helmet
+    4300020: LeftLeg
+    4300022: LeftFoot
+    4300024: RightLeg
+    4300026: RightFoot
+    4300028: Arrow1
+    4300030: Bow1
+    4300032: Sword
+    4300034: Stone
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using QueenOfTheCastle.Character;
 
 public class playerProfectileFireScript : MonoBehaviour {
 	
@@ -34,6 +35,6 @@ public class playerProfectileFireScript : MonoBehaviour {
 		
 		pScript.moveAngle = aimAngle;
 		pScript.speed = projectileSpeed;
-		
+		pScript.character = GetComponent<ICharacter> ();
 	}
 }

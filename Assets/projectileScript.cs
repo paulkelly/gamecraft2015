@@ -11,18 +11,18 @@ public class projectileScript : MonoBehaviour {
 	public ICharacter character;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 
 		Rigidbody rb = GetComponent<Rigidbody>();
 		rb.AddForce(moveAngle*speed);
 
+		Destroy (gameObject, 3f);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		Rigidbody rb = GetComponent<Rigidbody>();
-
-		transform.rotation = Quaternion.LookRotation(rb.velocity ,new Vector3(0,0,1));
 
 		bool visible = GetComponent<Renderer>().isVisible;
 			if (visible == false)
@@ -31,12 +31,59 @@ public class projectileScript : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerEnter(Collider collider)
+	void OnCollisionEnter(Collision collider)
 	{
-		ICharacter chr = collider.GetComponentInParent<ICharacter> ();
+		if(!isActive)
+		{
+			return;
+		}
+		ICharacter chr = collider.transform.GetComponentInParent<ICharacter> ();
 		if(chr != null)
 		{
+			if(chr == character)
+			{
+				return;
+			}
+
+			chr.Kill();
+		}
+
+		isActive = false;
+
+		if(!collider.transform.tag.Equals("Arrow"))
+		{
+			Destroy(gameObject);
+			//GetComponent<Rigidbody>().isKinematic = true;
+			//GetComponent<Rigidbody>().velocity = Vector3.zero;
+			//transform.parent = collider.transform;
+		}
+	}
+
+	void OnTriggerEnter(Collider collider)
+	{
+		if(!isActive)
+		{
+			return;
+		}
+		ICharacter chr = collider.transform.GetComponentInParent<ICharacter> ();
+		if(chr != null)
+		{
+			if(chr == character)
+			{
+				return;
+			}
 			
+			chr.Kill();
+		}
+		
+		isActive = false;
+		
+		if(!collider.transform.tag.Equals("Arrow"))
+		{
+			Destroy(gameObject);
+			//GetComponent<Rigidbody>().isKinematic = true;
+			//GetComponent<Rigidbody>().velocity = Vector3.zero;
+			//transform.parent = collider.transform;
 		}
 	}
 }

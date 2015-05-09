@@ -15,6 +15,8 @@ namespace QueenOfTheCastle.Character
 		[Inject]
 		public SpamB spamBSignal { get; set;}
 
+		public Transform[] SpawnPoints;
+
 		private bool XHeldDown = false;
 		
 		private bool gameOver = false;
@@ -65,11 +67,12 @@ namespace QueenOfTheCastle.Character
 		public bool LeftGround = false;
 		void Update ()
 		{
-			Grounded = Physics.Raycast (ground.position, Vector3.down, 0.1f);
-			Debug.DrawLine (ground.position, ground.position + new Vector3(0, -0.1f, 0));
+			var layerMask = 1 << 10;
+			Grounded = Physics.Raycast (ground.position, Vector3.down, 0.1f, layerMask);
+			//Debug.DrawLine (ground.position, ground.position + new Vector3(0, -0.1f, 0));
 			if(!LeftGround)
 			{
-				LeftGround = !Grounded;
+				LeftGround = !Physics.Raycast (ground.position, Vector3.down, 0.2f, layerMask);
 			}
 
 			if(Jump && LeftGround && Grounded)
@@ -80,6 +83,18 @@ namespace QueenOfTheCastle.Character
 		}
 		
 		#region ICharacter implementation
+
+		public void Kill()
+		{
+			Invoke ("Respawn", 3f);
+			gameObject.SetActive (false);
+		}
+
+		private void Respawn()
+		{
+			gameObject.SetActive (true);
+			transform.position = SpawnPoints[UnityEngine.Random.Range(0, SpawnPoints.Length)].position;
+		}
 			
 		public void Move (Vector2 value)
 		{

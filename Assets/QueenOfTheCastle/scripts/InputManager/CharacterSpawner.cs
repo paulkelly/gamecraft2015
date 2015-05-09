@@ -6,7 +6,7 @@ using strange.extensions.mediation.impl;
 using QueenOfTheCastle.Common;
 
 public class CharacterSpawner : View
-{		
+{	
 	public virtual float MaxPlayers
 	{
 		get {return 0;}

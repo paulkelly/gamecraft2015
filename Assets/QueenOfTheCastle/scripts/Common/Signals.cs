@@ -20,4 +20,8 @@ namespace QueenOfTheCastle.Common
 	public class SpamB : Signal<ICharacter>
 	{
 	}
+
+	public class Respawn : Signal<ThreeDCharacter>
+	{
+	}
 }
