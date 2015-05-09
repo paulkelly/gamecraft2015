@@ -74,6 +74,10 @@ namespace QueenOfTheCastle.Character
 			GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + dir);
 			//rigidbody.AddForce(rigidbody.position + dir * 500);
 		}
+
+		public void Aim(Vector2 value)
+		{
+		}
 	
 		public void Action1Down ()
 		{

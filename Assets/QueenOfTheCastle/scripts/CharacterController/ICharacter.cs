@@ -6,6 +6,7 @@ namespace QueenOfTheCastle.Character
 	public interface ICharacter
 	{
 		void Move(Vector2 value);
+		void Aim(Vector2 value);
 		
 		void Action1Down();
 		void Action1Up();

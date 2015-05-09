@@ -30,14 +30,32 @@ namespace QueenOfTheCastle.Character
 		{
 			set
 			{
-				animator.SetFloat("speed", value);
+				animator.SetFloat("Speed", value);
 			}
 		}
+		public bool Jump
+		{
+			set
+			{
+				animator.SetBool("Jump", value);
+			}
+
+			get
+			{
+				return animator.GetBool("Jump");
+			}
+		}
+		public void HitHead()
+		{
+			animator.SetTrigger("HitHead");
+		}
+
 		protected override void OnStart ()
 		{
 			endgame.AddListener(GameOver);
 		}
-		
+
+		private bool Grounded;
 		void Update ()
 		{
 
@@ -55,9 +73,9 @@ namespace QueenOfTheCastle.Character
 		
 			Vector3 translation = new Vector3 (value.x, 0, 0);
 			
-			translation = Camera.main.cameraToWorldMatrix.MultiplyVector (translation);
+			//translation = Camera.main.cameraToWorldMatrix.MultiplyVector (translation);
 			
-			translation.Set (translation.x, 0, translation.z);
+			//translation.Set (translation.x, 0, translation.z);
 			
 			if(translation.magnitude > Mathf.Epsilon)
 			{
@@ -69,7 +87,12 @@ namespace QueenOfTheCastle.Character
 
 			//Debug.DrawRay (head.position, aim.position - head.position, Color.red);
 		}
-		
+
+		public void Aim(Vector2 value)
+		{
+
+		}
+
 		private void Rotate(Vector3 dir)
 		{
 			//transform.LookAt(dir);

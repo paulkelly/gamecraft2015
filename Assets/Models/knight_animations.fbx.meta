@@ -1,0 +1,1439 @@
+fileFormatVersion: 2
+guid: 58ab652b4cabe409294a60732cd6d738
+timeCreated: 1431172578
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: gamecraft_body
+    100002: gamecraft_Chest
+    100004: gamecraft_Head
+    100006: gamecraft_HeadEnd
+    100008: gamecraft_Hips
+    100010: gamecraft_LeftArm
+    100012: gamecraft_LeftFoot
+    100014: gamecraft_LeftForearm
+    100016: gamecraft_LeftHand
+    100018: gamecraft_LeftHandIndex1
+    100020: gamecraft_LeftHandIndex2
+    100022: gamecraft_LeftHandIndex3
+    100024: gamecraft_LeftHandMiddle1
+    100026: gamecraft_LeftHandMiddle2
+    100028: gamecraft_LeftHandMiddle3
+    100030: gamecraft_LeftHandPinky1
+    100032: gamecraft_LeftHandPinky2
+    100034: gamecraft_LeftHandPinky3
+    100036: gamecraft_LeftHandRing1
+    100038: gamecraft_LeftHandRing2
+    100040: gamecraft_LeftHandRing3
+    100042: gamecraft_LeftHandThumb1
+    100044: gamecraft_LeftHandThumb2
+    100046: gamecraft_LeftHandThumb3
+    100048: gamecraft_LeftLeg
+    100050: gamecraft_LeftShoulder
+    100052: gamecraft_LeftToe
+    100054: gamecraft_LeftToeEnd
+    100056: gamecraft_LeftUpLeg
+    100058: gamecraft_Neck
+    100060: gamecraft_RightArm
+    100062: gamecraft_RightFoot
+    100064: gamecraft_RightForearm
+    100066: gamecraft_RightHand
+    100068: gamecraft_RightHandIndex1
+    100070: gamecraft_RightHandIndex2
+    100072: gamecraft_RightHandIndex3
+    100074: gamecraft_RightHandMiddle1
+    100076: gamecraft_RightHandMiddle2
+    100078: gamecraft_RightHandMiddle3
+    100080: gamecraft_RightHandPinky1
+    100082: gamecraft_RightHandPinky2
+    100084: gamecraft_RightHandPinky3
+    100086: gamecraft_RightHandRing1
+    100088: gamecraft_RightHandRing2
+    100090: gamecraft_RightHandRing3
+    100092: gamecraft_RightHandThumb1
+    100094: gamecraft_RightHandThumb2
+    100096: gamecraft_RightHandThumb3
+    100098: gamecraft_RightLeg
+    100100: gamecraft_RightShoulder
+    100102: gamecraft_RightToe
+    100104: gamecraft_RightToeEnd
+    100106: gamecraft_RightUpLeg
+    100108: gamecraft_Skeleton
+    100110: gamecraft_Spine
+    100112: //RootNode
+    400000: gamecraft_body
+    400002: gamecraft_Chest
+    400004: gamecraft_Head
+    400006: gamecraft_HeadEnd
+    400008: gamecraft_Hips
+    400010: gamecraft_LeftArm
+    400012: gamecraft_LeftFoot
+    400014: gamecraft_LeftForearm
+    400016: gamecraft_LeftHand
+    400018: gamecraft_LeftHandIndex1
+    400020: gamecraft_LeftHandIndex2
+    400022: gamecraft_LeftHandIndex3
+    400024: gamecraft_LeftHandMiddle1
+    400026: gamecraft_LeftHandMiddle2
+    400028: gamecraft_LeftHandMiddle3
+    400030: gamecraft_LeftHandPinky1
+    400032: gamecraft_LeftHandPinky2
+    400034: gamecraft_LeftHandPinky3
+    400036: gamecraft_LeftHandRing1
+    400038: gamecraft_LeftHandRing2
+    400040: gamecraft_LeftHandRing3
+    400042: gamecraft_LeftHandThumb1
+    400044: gamecraft_LeftHandThumb2
+    400046: gamecraft_LeftHandThumb3
+    400048: gamecraft_LeftLeg
+    400050: gamecraft_LeftShoulder
+    400052: gamecraft_LeftToe
+    400054: gamecraft_LeftToeEnd
+    400056: gamecraft_LeftUpLeg
+    400058: gamecraft_Neck
+    400060: gamecraft_RightArm
+    400062: gamecraft_RightFoot
+    400064: gamecraft_RightForearm
+    400066: gamecraft_RightHand
+    400068: gamecraft_RightHandIndex1
+    400070: gamecraft_RightHandIndex2
+    400072: gamecraft_RightHandIndex3
+    400074: gamecraft_RightHandMiddle1
+    400076: gamecraft_RightHandMiddle2
+    400078: gamecraft_RightHandMiddle3
+    400080: gamecraft_RightHandPinky1
+    400082: gamecraft_RightHandPinky2
+    400084: gamecraft_RightHandPinky3
+    400086: gamecraft_RightHandRing1
+    400088: gamecraft_RightHandRing2
+    400090: gamecraft_RightHandRing3
+    400092: gamecraft_RightHandThumb1
+    400094: gamecraft_RightHandThumb2
+    400096: gamecraft_RightHandThumb3
+    400098: gamecraft_RightLeg
+    400100: gamecraft_RightShoulder
+    400102: gamecraft_RightToe
+    400104: gamecraft_RightToeEnd
+    400106: gamecraft_RightUpLeg
+    400108: gamecraft_Skeleton
+    400110: gamecraft_Spine
+    400112: //RootNode
+    4300000: gamecraft_body
+    7400000: Jump
+    7400002: Fall
+    7400004: Jump-Run
+    7400006: Jump-Fall
+    9500000: //RootNode
+    13700000: gamecraft_body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gamecraft_body
+        weight: 1
+      - path: gamecraft_Skeleton
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot/gamecraft_LeftToe
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot/gamecraft_LeftToe/gamecraft_LeftToeEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot/gamecraft_RightToe
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot/gamecraft_RightToe/gamecraft_RightToeEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1/gamecraft_LeftHandIndex2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1/gamecraft_LeftHandIndex2/gamecraft_LeftHandIndex3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1/gamecraft_LeftHandMiddle2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1/gamecraft_LeftHandMiddle2/gamecraft_LeftHandMiddle3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1/gamecraft_LeftHandPinky2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1/gamecraft_LeftHandPinky2/gamecraft_LeftHandPinky3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1/gamecraft_LeftHandRing2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1/gamecraft_LeftHandRing2/gamecraft_LeftHandRing3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1/gamecraft_LeftHandThumb2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1/gamecraft_LeftHandThumb2/gamecraft_LeftHandThumb3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck/gamecraft_Head
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck/gamecraft_Head/gamecraft_HeadEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1/gamecraft_RightHandIndex2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1/gamecraft_RightHandIndex2/gamecraft_RightHandIndex3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1/gamecraft_RightHandMiddle2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1/gamecraft_RightHandMiddle2/gamecraft_RightHandMiddle3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1/gamecraft_RightHandPinky2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1/gamecraft_RightHandPinky2/gamecraft_RightHandPinky3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1/gamecraft_RightHandRing2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1/gamecraft_RightHandRing2/gamecraft_RightHandRing3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1/gamecraft_RightHandThumb2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1/gamecraft_RightHandThumb2/gamecraft_RightHandThumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fall
+      takeName: Take 001
+      firstFrame: 15
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gamecraft_body
+        weight: 1
+      - path: gamecraft_Skeleton
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot/gamecraft_LeftToe
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot/gamecraft_LeftToe/gamecraft_LeftToeEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot/gamecraft_RightToe
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot/gamecraft_RightToe/gamecraft_RightToeEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1/gamecraft_LeftHandIndex2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1/gamecraft_LeftHandIndex2/gamecraft_LeftHandIndex3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1/gamecraft_LeftHandMiddle2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1/gamecraft_LeftHandMiddle2/gamecraft_LeftHandMiddle3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1/gamecraft_LeftHandPinky2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1/gamecraft_LeftHandPinky2/gamecraft_LeftHandPinky3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1/gamecraft_LeftHandRing2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1/gamecraft_LeftHandRing2/gamecraft_LeftHandRing3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1/gamecraft_LeftHandThumb2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1/gamecraft_LeftHandThumb2/gamecraft_LeftHandThumb3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck/gamecraft_Head
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck/gamecraft_Head/gamecraft_HeadEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1/gamecraft_RightHandIndex2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1/gamecraft_RightHandIndex2/gamecraft_RightHandIndex3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1/gamecraft_RightHandMiddle2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1/gamecraft_RightHandMiddle2/gamecraft_RightHandMiddle3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1/gamecraft_RightHandPinky2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1/gamecraft_RightHandPinky2/gamecraft_RightHandPinky3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1/gamecraft_RightHandRing2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1/gamecraft_RightHandRing2/gamecraft_RightHandRing3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1/gamecraft_RightHandThumb2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1/gamecraft_RightHandThumb2/gamecraft_RightHandThumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump-Run
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gamecraft_body
+        weight: 1
+      - path: gamecraft_Skeleton
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot/gamecraft_LeftToe
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot/gamecraft_LeftToe/gamecraft_LeftToeEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot/gamecraft_RightToe
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot/gamecraft_RightToe/gamecraft_RightToeEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1/gamecraft_LeftHandIndex2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1/gamecraft_LeftHandIndex2/gamecraft_LeftHandIndex3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1/gamecraft_LeftHandMiddle2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1/gamecraft_LeftHandMiddle2/gamecraft_LeftHandMiddle3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1/gamecraft_LeftHandPinky2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1/gamecraft_LeftHandPinky2/gamecraft_LeftHandPinky3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1/gamecraft_LeftHandRing2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1/gamecraft_LeftHandRing2/gamecraft_LeftHandRing3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1/gamecraft_LeftHandThumb2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1/gamecraft_LeftHandThumb2/gamecraft_LeftHandThumb3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck/gamecraft_Head
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck/gamecraft_Head/gamecraft_HeadEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1/gamecraft_RightHandIndex2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1/gamecraft_RightHandIndex2/gamecraft_RightHandIndex3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1/gamecraft_RightHandMiddle2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1/gamecraft_RightHandMiddle2/gamecraft_RightHandMiddle3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1/gamecraft_RightHandPinky2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1/gamecraft_RightHandPinky2/gamecraft_RightHandPinky3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1/gamecraft_RightHandRing2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1/gamecraft_RightHandRing2/gamecraft_RightHandRing3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1/gamecraft_RightHandThumb2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1/gamecraft_RightHandThumb2/gamecraft_RightHandThumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump-Fall
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gamecraft_body
+        weight: 1
+      - path: gamecraft_Skeleton
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot/gamecraft_LeftToe
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_LeftUpLeg/gamecraft_LeftLeg/gamecraft_LeftFoot/gamecraft_LeftToe/gamecraft_LeftToeEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot/gamecraft_RightToe
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_RightUpLeg/gamecraft_RightLeg/gamecraft_RightFoot/gamecraft_RightToe/gamecraft_RightToeEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1/gamecraft_LeftHandIndex2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandIndex1/gamecraft_LeftHandIndex2/gamecraft_LeftHandIndex3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1/gamecraft_LeftHandMiddle2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandMiddle1/gamecraft_LeftHandMiddle2/gamecraft_LeftHandMiddle3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1/gamecraft_LeftHandPinky2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandPinky1/gamecraft_LeftHandPinky2/gamecraft_LeftHandPinky3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1/gamecraft_LeftHandRing2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandRing1/gamecraft_LeftHandRing2/gamecraft_LeftHandRing3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1/gamecraft_LeftHandThumb2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_LeftShoulder/gamecraft_LeftArm/gamecraft_LeftForearm/gamecraft_LeftHand/gamecraft_LeftHandThumb1/gamecraft_LeftHandThumb2/gamecraft_LeftHandThumb3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck/gamecraft_Head
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_Neck/gamecraft_Head/gamecraft_HeadEnd
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1/gamecraft_RightHandIndex2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandIndex1/gamecraft_RightHandIndex2/gamecraft_RightHandIndex3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1/gamecraft_RightHandMiddle2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandMiddle1/gamecraft_RightHandMiddle2/gamecraft_RightHandMiddle3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1/gamecraft_RightHandPinky2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandPinky1/gamecraft_RightHandPinky2/gamecraft_RightHandPinky3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1/gamecraft_RightHandRing2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandRing1/gamecraft_RightHandRing2/gamecraft_RightHandRing3
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1/gamecraft_RightHandThumb2
+        weight: 1
+      - path: gamecraft_Skeleton/gamecraft_Hips/gamecraft_Spine/gamecraft_Chest/gamecraft_RightShoulder/gamecraft_RightArm/gamecraft_RightForearm/gamecraft_RightHand/gamecraft_RightHandThumb1/gamecraft_RightHandThumb2/gamecraft_RightHandThumb3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: gamecraft_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftToe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightToe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gamecraft_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: knight_animations(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_body
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_Skeleton
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_Hips
+      position: {x: 4.8810766e-32, y: .508502364, z: -.00616931682}
+      rotation: {x: -.491197646, y: .508650005, z: -.491197646, w: .508650064}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: gamecraft_Spine
+      position: {x: -.149999991, y: 0, z: 0}
+      rotation: {x: 0, y: -5.96046448e-08, z: .0394982994, w: -.999219656}
+      scale: {x: .99999994, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_Chest
+      position: {x: -.149999991, y: 0, z: 4.99104767e-17}
+      rotation: {x: 2.98023224e-08, y: -2.98023224e-08, z: -.0432396233, w: .999064744}
+      scale: {x: .999999821, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: gamecraft_Neck
+      position: {x: -.189999998, y: 0, z: 7.9398334e-17}
+      rotation: {x: 5.96046448e-08, y: -5.96046448e-08, z: -.0986744016, w: -.99511975}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_Head
+      position: {x: -.0819580257, y: 0, z: 6.38432886e-17}
+      rotation: {x: 0, y: -5.96046448e-08, z: -.0335205495, w: .999438047}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_HeadEnd
+      position: {x: -.1760979, y: -.0118257273, z: -7.63278325e-19}
+      rotation: {x: -2.98023224e-08, y: 2.98023224e-08, z: 2.98023224e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftShoulder
+      position: {x: -.149999991, y: -3.5527136e-17, z: -.179999992}
+      rotation: {x: -.4707748, y: .527608812, z: -.584430933, w: -.398045868}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftArm
+      position: {x: -.133396581, y: -5.68434176e-16, z: 1.3322676e-17}
+      rotation: {x: -.00106346712, y: -.00866148807, z: -.121864691, w: .992508352}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: gamecraft_LeftForearm
+      position: {x: -.199999988, y: -7.10542693e-16, z: 1.7763568e-17}
+      rotation: {x: -3.05814005e-08, y: .0174524393, z: 8.9143505e-08, w: .99984771}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftHand
+      position: {x: -.199999988, y: -2.84217088e-16, z: 0}
+      rotation: {x: -4.470348e-08, y: -.00872653723, z: -7.4505806e-08, w: .999961913}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftHandPinky1
+      position: {x: -.106252432, y: 3.10250722e-33, z: -.080001466}
+      rotation: {x: .00346045173, y: .0207649264, z: -.0439646617, w: .998811305}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftHandPinky2
+      position: {x: -.049999997, y: 0, z: 8.43769488e-17}
+      rotation: {x: -2.97104492e-08, y: 2.23517418e-08, z: 2.33826336e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftHandPinky3
+      position: {x: -.0399999991, y: 1.42108544e-16, z: 0}
+      rotation: {x: 5.47443832e-08, y: -2.98023224e-08, z: -6.40974349e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftHandRing1
+      position: {x: -.127211303, y: .00999999978, z: -.029761076}
+      rotation: {x: .0029614605, y: .0210646261, z: -.042347379, w: .998876512}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_LeftHandRing2
+      position: {x: -.0599999987, y: 0, z: -8.88178367e-17}
+      rotation: {x: -6.15383442e-08, y: -1.26659856e-07, z: -2.55719126e-08, w: 1}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_LeftHandRing3
+      position: {x: -.0399999991, y: 0, z: 4.440892e-18}
+      rotation: {x: 4.6487417e-15, y: 1.04308114e-07, z: -3.46945225e-16, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_LeftHandMiddle1
+      position: {x: -.13111566, y: .0199999996, z: .0247199982}
+      rotation: {x: -.00023543906, y: .0471778512, z: -.0053934576, w: .998871922}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftHandMiddle2
+      position: {x: -.0700000003, y: -2.84217088e-16, z: -1.42108544e-16}
+      rotation: {x: 3.10739203e-08, y: -3.7252903e-08, z: -2.84739983e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_LeftHandMiddle3
+      position: {x: -.0399999991, y: -2.84217088e-16, z: 3.5527136e-17}
+      rotation: {x: -2.58740727e-08, y: 2.235174e-08, z: -9.06218176e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_LeftHandIndex1
+      position: {x: -.126767755, y: .00999999978, z: .0765314996}
+      rotation: {x: 7.2134462e-08, y: .121869385, z: 2.3870065e-08, w: .992546141}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: gamecraft_LeftHandIndex2
+      position: {x: -.0599999987, y: 0, z: -3.5527136e-17}
+      rotation: {x: 3.86601613e-08, y: -5.21540642e-08, z: -7.03184639e-08, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftHandIndex3
+      position: {x: -.0399999991, y: -5.68434176e-16, z: -3.5527136e-17}
+      rotation: {x: -1.81599114e-09, y: 4.470348e-08, z: 1.47900883e-08, w: 1}
+      scale: {x: .99999994, y: 1, z: .999999821}
+      transformModified: 1
+    - name: gamecraft_LeftHandThumb1
+      position: {x: -.00899999961, y: -.0259999987, z: .0799999982}
+      rotation: {x: .584175587, y: .317848861, z: -.271319658, w: .695770562}
+      scale: {x: .999999821, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_LeftHandThumb2
+      position: {x: -.049999997, y: 0, z: -5.68434176e-16}
+      rotation: {x: -1.75088644e-07, y: -8.19563866e-08, z: 0, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_LeftHandThumb3
+      position: {x: -.049999997, y: 0, z: -1.42108544e-16}
+      rotation: {x: 2.235174e-08, y: 3.35276091e-08, z: 1.49011594e-08, w: 1}
+      scale: {x: .999999881, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_RightShoulder
+      position: {x: -.149999827, y: 3.40629605e-08, z: .179999992}
+      rotation: {x: -.527608871, y: -.4707748, z: -.398045808, w: .584430933}
+      scale: {x: 1.00000012, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: gamecraft_RightArm
+      position: {x: .133396313, y: -5.05252387e-07, z: -1.28341776e-15}
+      rotation: {x: -.00106348214, y: -.00866154674, z: -.121864706, w: .992508352}
+      scale: {x: .999999881, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: gamecraft_RightForearm
+      position: {x: .20000045, y: -2.84217088e-16, z: 1.0664678e-08}
+      rotation: {x: 5.20145205e-10, y: .0174524095, z: -5.96023781e-08, w: .99984777}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHand
+      position: {x: .199999467, y: 0, z: -2.81170873e-08}
+      rotation: {x: 3.16617189e-15, y: -.0087265959, z: -5.96046377e-08, w: .999961913}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHandPinky1
+      position: {x: .106252998, y: 4.26325632e-16, z: .0800012946}
+      rotation: {x: .00346058211, y: .0207680538, z: -.0439661816, w: .998811185}
+      scale: {x: .99999994, y: 1, z: .999999881}
+      transformModified: 1
+    - name: gamecraft_RightHandPinky2
+      position: {x: .0499996319, y: 0, z: 3.38578559e-07}
+      rotation: {x: -9.00956376e-09, y: 5.96046377e-08, z: 7.54452572e-08, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHandPinky3
+      position: {x: .0400004014, y: 1.42108544e-16, z: -4.46897701e-07}
+      rotation: {x: -1.83626163e-08, y: 1.04308107e-07, z: -4.33965397e-08, w: 1}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_RightHandRing1
+      position: {x: .127212003, y: -.00999999978, z: .0297610983}
+      rotation: {x: .00296142115, y: .0210645087, z: -.042347949, w: .998876512}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHandRing2
+      position: {x: .0599999167, y: -1.42108544e-16, z: 2.55145753e-08}
+      rotation: {x: -8.39918926e-08, y: 1.26659842e-07, z: 8.05610156e-08, w: 1}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: gamecraft_RightHandRing3
+      position: {x: .0399992801, y: 0, z: 7.67828539e-08}
+      rotation: {x: 3.11836068e-09, y: -4.47034729e-08, z: 4.45945787e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHandMiddle1
+      position: {x: .131116003, y: -.0199999996, z: -.0247200094}
+      rotation: {x: -.000235357933, y: .0471778736, z: -.00539377565, w: .998871922}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHandMiddle2
+      position: {x: .0699993744, y: -1.42108544e-16, z: -5.28245643e-08}
+      rotation: {x: -8.93218655e-08, y: 7.07805086e-08, z: -3.89987598e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHandMiddle3
+      position: {x: .0400002077, y: 0, z: 1.81946795e-08}
+      rotation: {x: 2.58740798e-08, y: 3.72528994e-08, z: 9.06218176e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHandIndex1
+      position: {x: .126767993, y: -.00999999978, z: -.0765314996}
+      rotation: {x: 5.18963787e-08, y: .121869363, z: 6.64243345e-08, w: .992546201}
+      scale: {x: .999999881, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: gamecraft_RightHandIndex2
+      position: {x: .0600002408, y: -1.42108544e-16, z: 7.53624079e-08}
+      rotation: {x: -2.95801712e-08, y: 5.21540535e-08, z: -3.63198915e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHandIndex3
+      position: {x: .0400001705, y: 0, z: 1.78984134e-08}
+      rotation: {x: -3.68441526e-08, y: 3.72528959e-08, z: 5.55283606e-08, w: 1}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: gamecraft_RightHandThumb1
+      position: {x: .00899999961, y: .0259999987, z: -.0799999982}
+      rotation: {x: -.584173381, y: -.317848235, z: .271323234, w: -.695771277}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHandThumb2
+      position: {x: .0500007011, y: 3.43145075e-07, z: -3.46829808e-07}
+      rotation: {x: 0, y: -7.45057989e-08, z: -9.31322433e-08, w: 1}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightHandThumb3
+      position: {x: .0499995984, y: -2.31396513e-07, z: 3.2723301e-07}
+      rotation: {x: -6.89178634e-08, y: 1.49011594e-08, z: -3.72528985e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftUpLeg
+      position: {x: .0296330974, y: 4.440892e-18, z: -.165557012}
+      rotation: {x: .0261768848, y: .999657393, z: 0, w: -2.98023224e-08}
+      scale: {x: .999999821, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: gamecraft_LeftLeg
+      position: {x: -.199999988, y: -1.55431221e-16, z: -7.1054272e-17}
+      rotation: {x: -2.98023224e-08, y: -1.49011612e-08, z: .0174522847, w: -.99984777}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftFoot
+      position: {x: -.199999988, y: -1.67643676e-16, z: 2.13162816e-16}
+      rotation: {x: -2.98023188e-08, y: -2.98023188e-08, z: -.00872644689, w: -.999961972}
+      scale: {x: .999999881, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: gamecraft_LeftToe
+      position: {x: -.0649999976, y: -.140000001, z: -1.77635673e-16}
+      rotation: {x: -5.96046377e-08, y: 0, z: .707106769, w: .707106829}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: gamecraft_LeftToeEnd
+      position: {x: -.161526978, y: -4.44089183e-17, z: -3.5527136e-17}
+      rotation: {x: -3.39773498e-09, y: 0, z: 1.053671e-07, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightUpLeg
+      position: {x: .0296332426, y: -2.03591566e-09, z: .165556997}
+      rotation: {x: .999657333, y: -.0261768252, z: -2.98023224e-08, w: 2.98023224e-08}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: gamecraft_RightLeg
+      position: {x: .199999467, y: 8.12013212e-09, z: 7.1054272e-17}
+      rotation: {x: -1.49011612e-08, y: -1.49011612e-08, z: -.0174521953, w: .99984777}
+      scale: {x: 1, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: gamecraft_RightFoot
+      position: {x: .20000045, y: 9.33227451e-09, z: -1.47090798e-10}
+      rotation: {x: 0, y: 0, z: -.00872644782, w: -.999961972}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightToe
+      position: {x: .0649999008, y: .140000492, z: -3.66562491e-09}
+      rotation: {x: 0, y: 2.09687272e-08, z: -.707106829, w: -.707106769}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: gamecraft_RightToeEnd
+      position: {x: .161525995, y: 2.04281027e-16, z: 1.38555828e-15}
+      rotation: {x: 3.35660069e-08, y: -5.96046306e-08, z: 6.32202699e-08, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

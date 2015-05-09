@@ -14,23 +14,28 @@ public class PlayerSetup : View
 		
 	Dictionary<InputDevice, int> players = new Dictionary<InputDevice, int>();
 	private int next = 0;
-	
-	void Update ()
+
+
+	private void Update ()
 	{
-		Debug.Log ("Updating");
-		if(InControl.InputManager.ActiveDevice.MenuWasPressed)
+		foreach(InputDevice device in InControl.InputManager.Devices)
 		{
-			Debug.Log ("Start Pressed");
-			if(players.Count == 0)
+			if(device.AnyButton.IsPressed || device.MenuWasPressed)
 			{
-				startGame.Dispatch();
+				if(players.Count == 0)
+				{
+					startGame.Dispatch();
+				}
+				MenuPressed(device);
 			}
-		
-			InputDevice activeDevice = InControl.InputManager.ActiveDevice;
-			if(!players.ContainsKey(activeDevice))
-			{
-				AddPlayer(activeDevice);
-			}
+		}
+	}
+
+	private void MenuPressed(InputDevice activeDevice)
+	{
+		if(!players.ContainsKey(activeDevice))
+		{
+			AddPlayer(activeDevice);
 		}
 	}
 	
