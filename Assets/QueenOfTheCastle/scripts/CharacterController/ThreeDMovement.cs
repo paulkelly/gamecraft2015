@@ -55,6 +55,7 @@ namespace QueenOfTheCastle.Character
 		}
 
 		public Transform ground;
+		public bool Jumping = false;
 		public bool Grounded = false;
 		public bool LeftGround = false;
 		void Update ()
@@ -66,9 +67,9 @@ namespace QueenOfTheCastle.Character
 				LeftGround = !Grounded;
 			}
 
-			if(Jump && LeftGround && Grounded)
+			if(Jumping && LeftGround && Grounded)
 			{
-				Jump = false;
+				Jumping = false;
 				LeftGround = false;
 			}
 		}
@@ -118,9 +119,11 @@ namespace QueenOfTheCastle.Character
 				return;
 			}
 
-			if(!Jump)
+			if(!Jumping)
 			{
-				Jump = true;
+				Jumping = true;
+
+				GetComponent<Rigidbody>().AddForce(Vector3.up * 3200f);
 			}
 		}
 
