@@ -20,9 +20,6 @@ namespace QueenOfTheCastle.Character
 	
 		[Range (0,20)]
 		public float speed;
-		
-		[Range (0,400)]
-		public float turnSpeed;
 
 		public Animator animator;
 
@@ -55,10 +52,14 @@ namespace QueenOfTheCastle.Character
 			endgame.AddListener(GameOver);
 		}
 
-		private bool Grounded;
+		public Transform ground;
+		private bool Grounded = false;
 		void Update ()
 		{
+			//if(Physics.Raycast(ground.position, Vector3.down, 0.1f))
+			//{
 
+			//}
 		}
 		
 		#region ICharacter implementation
@@ -79,7 +80,7 @@ namespace QueenOfTheCastle.Character
 			
 			if(translation.magnitude > Mathf.Epsilon)
 			{
-				Rotate (translation);			
+				transform.rotation = Quaternion.LookRotation(translation);
 			}
 			//transform.Translate (translation * speed * Time.deltaTime, Space.World);
 			//rigidbody.MovePosition (rigidbody.position + translation * speed * Time.deltaTime);
@@ -93,11 +94,11 @@ namespace QueenOfTheCastle.Character
 
 		}
 
-		private void Rotate(Vector3 dir)
-		{
+		//private void Rotate(Vector3 dir)
+		//{
 			//transform.LookAt(dir);
-			transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(dir), turnSpeed * Time.deltaTime);
-		}
+		//	transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(dir), turnSpeed * Time.deltaTime);
+		//}
 	
 		public void Action1Down ()
 		{
