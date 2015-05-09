@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
-using AllHandsOnDeck.Character;
+using QueenOfTheCastle.Character;
 using InControl;
 using strange.extensions.mediation.impl;
-using AllHandsOnDeck.Common;
+using QueenOfTheCastle.Common;
 
 public class CharacterSpawner : View
 {		

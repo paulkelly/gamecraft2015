@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using InControl;
 
-namespace AllHandsOnDeck.Character
+namespace QueenOfTheCastle.Character
 {
 	[System.Serializable]
 	public class ThreeDCharacter
 	{
 		public ThreeDMovement movement;
-		public AllHandsOnDeck.InputManager.CharacterController controller;
+		public QueenOfTheCastle.InputManager.CharacterController controller;
 		public Transform spawnPoint;
 		
 		public void Spawn(InputDevice device)

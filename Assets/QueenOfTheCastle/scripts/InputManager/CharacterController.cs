@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
-using AllHandsOnDeck.Character;
+using QueenOfTheCastle.Character;
 using InControl;
 
-namespace AllHandsOnDeck.InputManager
+namespace QueenOfTheCastle.InputManager
 {
 	public class CharacterController : MonoBehaviour
 	{

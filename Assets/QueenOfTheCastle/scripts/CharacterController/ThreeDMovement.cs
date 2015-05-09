@@ -2,9 +2,9 @@
 using System.Collections;
 using strange.extensions.mediation.impl;
 using System;
-using AllHandsOnDeck.Common;
+using QueenOfTheCastle.Common;
 
-namespace AllHandsOnDeck.Character
+namespace QueenOfTheCastle.Character
 {
 	[RequireComponent (typeof(Rigidbody))]
 	public class ThreeDMovement : View, ICharacter

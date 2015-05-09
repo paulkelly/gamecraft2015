@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using strange.extensions.mediation.impl;
-using AllHandsOnDeck.Common;
+using QueenOfTheCastle.Common;
 using UnityEngine.UI;
 
 public class ShowEndGameScreen : View

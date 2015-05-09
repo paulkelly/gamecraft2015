@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using strange.extensions.context.impl;
 
@@ -8,7 +8,7 @@ namespace AllHandsOnDeck.Context
 	{
 		void Awake()
 		{
-			this.context = new AllHandsOnDeckContext (this);
+			this.context = new QueenOfTheCastleContext (this);
 		}
 	}
 }

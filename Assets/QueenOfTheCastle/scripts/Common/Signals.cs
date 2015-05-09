@@ -2,28 +2,8 @@
 using System.Collections;
 using strange.extensions.signal.impl;
 
-namespace AllHandsOnDeck.Common
+namespace QueenOfTheCastle.Common
 {
-	public class AddWater : Signal<float>
-	{
-	}
-
-	public class RemoveWater : Signal<float>
-	{
-	}
-
-	public class SpringLeak : Signal<Leak>
-	{
-	}
-
-	public class FixLeak : Signal<Leak>
-	{
-	}
-
-	public class RemoveObject : Signal<IObj>
-	{
-	}
-	
 	public class StartGame : Signal
 	{
 	}
@@ -33,10 +13,6 @@ namespace AllHandsOnDeck.Common
 	}
 	
 	public class RollCredits : Signal<float>
-	{
-	}
-	
-	public class RespawnPlug : Signal
 	{
 	}
 }

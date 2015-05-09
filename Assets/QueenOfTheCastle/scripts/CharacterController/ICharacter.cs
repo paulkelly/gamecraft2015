@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace AllHandsOnDeck.Character
+namespace QueenOfTheCastle.Character
 {
 	public interface ICharacter
 	{

@@ -3,7 +3,7 @@ using System.Collections;
 using strange.extensions.mediation.impl;
 using System.Collections.Generic;
 using InControl;
-using AllHandsOnDeck.Common;
+using QueenOfTheCastle.Common;
 
 public class PlayerSetup : View
 {
@@ -17,8 +17,10 @@ public class PlayerSetup : View
 	
 	void Update ()
 	{
+		Debug.Log ("Updating");
 		if(InControl.InputManager.ActiveDevice.MenuWasPressed)
 		{
+			Debug.Log ("Start Pressed");
 			if(players.Count == 0)
 			{
 				startGame.Dispatch();
