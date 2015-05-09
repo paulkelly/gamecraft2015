@@ -23,12 +23,6 @@ public class projectileScript : MonoBehaviour {
 		Rigidbody rb = GetComponent<Rigidbody>();
 
 		transform.rotation = Quaternion.LookRotation(rb.velocity ,new Vector3(1,0,0));
-
-		//bool visible = GetComponent<Renderer>().isVisible;
-			//if (visible == false)
-		{
-			//Destroy(this.gameObject);
-		}
 	}
 
 	void OnTriggerEnter(Collider collider)
