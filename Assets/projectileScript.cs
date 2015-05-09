@@ -22,10 +22,10 @@ public class projectileScript : MonoBehaviour {
 	void Update () {
 		Rigidbody rb = GetComponent<Rigidbody>();
 
-		transform.rotation = Quaternion.LookRotation(rb.velocity ,new Vector3(0,0,1));
+		transform.rotation = Quaternion.LookRotation(rb.velocity ,new Vector3(1,0,0));
 
-		bool visible = GetComponent<Renderer>().isVisible;
-			if (visible == false)
+		//bool visible = GetComponent<Renderer>().isVisible;
+			//if (visible == false)
 		{
 			//Destroy(this.gameObject);
 		}
