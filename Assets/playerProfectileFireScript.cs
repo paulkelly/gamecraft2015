@@ -4,7 +4,6 @@ using System.Collections;
 public class playerProfectileFireScript : MonoBehaviour {
 
 	public Vector2 aimAngle = new Vector2 ();
-	public bool fireTrue;
 	public GameObject projectile;
 	public GameObject currentProjectile;
 
@@ -19,18 +18,19 @@ public class playerProfectileFireScript : MonoBehaviour {
 
 		//Vector2 aimAngle = controllerInput;
 
-		//bool fireTrue = controllerInput;
+	}
 
-		if (fireTrue == true)
-		{
+	void fireProjectile () {
 
-			currentProjectile = (GameObject) Instantiate(projectile, new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z), Quaternion.identity);
+		currentProjectile = (GameObject)Instantiate (projectile, new Vector3 (transform.localPosition.x, transform.localPosition.y, transform.localPosition.z), Quaternion.identity);
+	
+		Vector3 aimAngle3D = aimAngle;
+	
+		currentProjectile.transform.rotation = Quaternion.Euler (aimAngle);
+	
+		projectileScript pScript = currentProjectile.GetComponent<projectileScript> ();
+	
+		pScript.moveAngle = aimAngle;
 
-			Vector3 aimAngle3D = aimAngle;
-
-			currentProjectile.transform.rotation = Quaternion.Euler(aimAngle);
-			fireTrue = false;
-
-		}
 	}
 }
