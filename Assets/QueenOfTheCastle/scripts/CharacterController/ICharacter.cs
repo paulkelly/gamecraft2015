@@ -5,6 +5,11 @@ namespace QueenOfTheCastle.Character
 {
 	public interface ICharacter
 	{
+		bool Grounded
+		{
+			get;
+		}
+
 		void Move(Vector2 value);
 		void Aim(Vector2 value);
 		

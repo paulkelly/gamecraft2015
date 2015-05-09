@@ -17,6 +17,9 @@ namespace AllHandsOnDeck.Context
 			injectionBinder.Bind<StartGame>().ToSingleton();
 			injectionBinder.Bind<EndGame>().ToSingleton();
 			injectionBinder.Bind<RollCredits>().ToSingleton();
+			injectionBinder.Bind<SpamB> ().ToSingleton ();
+
+			mediationBinder.BindView<SwordInTheStone> ().To<StoneMediator> ();
 		}
 	}
 }

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using strange.extensions.signal.impl;
+using QueenOfTheCastle.Character;
 
 namespace QueenOfTheCastle.Common
 {
@@ -13,6 +14,10 @@ namespace QueenOfTheCastle.Common
 	}
 	
 	public class RollCredits : Signal<float>
+	{
+	}
+
+	public class SpamB : Signal<ICharacter>
 	{
 	}
 }

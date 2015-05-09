@@ -24,6 +24,8 @@ namespace QueenOfTheCastle.Character
 		
 		[Range (0, 1)]
 		public float airMove;
+
+		public bool Grounded { get; set; }
 		
 		public Transform floor;
 		public JumpState jumpState;

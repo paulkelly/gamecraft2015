@@ -11,6 +11,9 @@ namespace QueenOfTheCastle.Character
 	{
 		[Inject]
 		public EndGame endgame { get; set; }
+
+		[Inject]
+		public SpamB spamBSignal { get; set;}
 		
 		private bool gameOver = false;
 		private void GameOver()
@@ -56,7 +59,7 @@ namespace QueenOfTheCastle.Character
 
 		public Transform ground;
 		public bool Jumping = false;
-		public bool Grounded = false;
+		public bool Grounded { get; set; }
 		public bool LeftGround = false;
 		void Update ()
 		{
@@ -141,6 +144,8 @@ namespace QueenOfTheCastle.Character
 			{
 				return;
 			}
+
+			spamBSignal.Dispatch (this);
 		}
 
 		public void Action2Up ()
