@@ -14,6 +14,8 @@ namespace QueenOfTheCastle.Character
 
 		[Inject]
 		public SpamB spamBSignal { get; set;}
+
+		private bool XHeldDown = false;
 		
 		private bool gameOver = false;
 		private void GameOver()
@@ -70,9 +72,9 @@ namespace QueenOfTheCastle.Character
 				LeftGround = !Grounded;
 			}
 
-			if(Jumping && LeftGround && Grounded)
+			if(Jump && LeftGround && Grounded)
 			{
-				Jumping = false;
+				Jump = false;
 				LeftGround = false;
 			}
 		}
@@ -99,14 +101,20 @@ namespace QueenOfTheCastle.Character
 			}
 			//transform.Translate (translation * speed * Time.deltaTime, Space.World);
 			//rigidbody.MovePosition (rigidbody.position + translation * speed * Time.deltaTime);
-			animatorSpeed = translation.magnitude;
-
+			if(!XHeldDown || Jump)
+			{
+				animatorSpeed = translation.magnitude;
+			}
+			else
+			{
+				animatorSpeed = 0;
+			}
+			projectileFire.aimAngle = value;
 			//Debug.DrawRay (head.position, aim.position - head.position, Color.red);
 		}
 
 		public void Aim(Vector2 value)
 		{
-			projectileFire.aimAngle = value;
 		}
 
 		//private void Rotate(Vector3 dir)
@@ -122,11 +130,11 @@ namespace QueenOfTheCastle.Character
 				return;
 			}
 
-			if(!Jumping)
+			if(!Jump)
 			{
-				Jumping = true;
+				Jump = true;
 
-				GetComponent<Rigidbody>().AddForce(Vector3.up * 3200f);
+				//GetComponent<Rigidbody>().AddForce(Vector3.up * 3200f);
 			}
 		}
 
@@ -159,12 +167,13 @@ namespace QueenOfTheCastle.Character
 			{
 				return;
 			}
-			
-			projectileFire.fireProjectile ();
+			XHeldDown = true;
 		}
 
 		public void Action3Up ()
 		{
+			XHeldDown = false;
+			projectileFire.fireProjectile ();
 		}
 	
 		public void Action4Down ()

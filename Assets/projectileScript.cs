@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using QueenOfTheCastle.Character;
 
 public class projectileScript : MonoBehaviour {
 
 	public Vector3 moveAngle = new Vector3();
 	public float speed = 3500f;
+
+	public bool isActive = true;
+	public ICharacter character;
 
 	// Use this for initialization
 	void Start () {
@@ -24,6 +28,15 @@ public class projectileScript : MonoBehaviour {
 			if (visible == false)
 		{
 			//Destroy(this.gameObject);
+		}
+	}
+
+	void OnTriggerEnter(Collider collider)
+	{
+		ICharacter chr = collider.GetComponentInParent<ICharacter> ();
+		if(chr != null)
+		{
+			
 		}
 	}
 }
