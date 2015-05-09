@@ -138,8 +138,6 @@ namespace QueenOfTheCastle.Character
 			{
 				return;
 			}
-
-			projectileFire.fireProjectile ();
 		}
 
 		public void Action2Up ()
@@ -149,6 +147,12 @@ namespace QueenOfTheCastle.Character
 	
 		public void Action3Down ()
 		{
+			if(gameOver)
+			{
+				return;
+			}
+			
+			projectileFire.fireProjectile ();
 		}
 
 		public void Action3Up ()

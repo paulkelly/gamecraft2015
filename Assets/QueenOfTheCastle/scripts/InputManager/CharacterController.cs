@@ -23,6 +23,8 @@ namespace QueenOfTheCastle.InputManager
 			}
 			
 			character.Move(inputDevice.Direction);
+
+			character.Aim(inputDevice.RightStick.Vector);
 		
 			if(inputDevice.Action1.WasPressed)
 			{
