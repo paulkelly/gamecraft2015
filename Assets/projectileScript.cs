@@ -23,12 +23,8 @@ public class projectileScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Rigidbody rb = GetComponent<Rigidbody>();
-
-		bool visible = GetComponent<Renderer>().isVisible;
-			if (visible == false)
-		{
-			//Destroy(this.gameObject);
-		}
+		
+		transform.rotation = Quaternion.LookRotation(rb.velocity ,new Vector3(1,0,0));
 	}
 
 	void OnCollisionEnter(Collision collider)

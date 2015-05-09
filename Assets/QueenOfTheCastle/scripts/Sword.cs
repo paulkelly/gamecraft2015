@@ -7,6 +7,6 @@ public class Sword : MonoBehaviour
 
 	void Update()
 	{
-		transform.localPosition = new Vector3(0, Progress * 0.01f, 0);
+		transform.localPosition = new Vector3(0, 2 + (Progress * 0.02f), 0);
 	}
 }

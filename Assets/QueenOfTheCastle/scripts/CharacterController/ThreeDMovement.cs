@@ -15,6 +15,8 @@ namespace QueenOfTheCastle.Character
 		[Inject]
 		public SpamB spamBSignal { get; set;}
 
+		private bool alive = true;
+
 		public Transform[] SpawnPoints;
 
 		private bool XHeldDown = false;
@@ -86,24 +88,27 @@ namespace QueenOfTheCastle.Character
 
 		public void Kill()
 		{
+			alive = false;
+			animator.SetTrigger ("Dead");
 			Invoke ("Respawn", 3f);
-			gameObject.SetActive (false);
+			//gameObject.SetActive (false);
 		}
 
 		private void Respawn()
 		{
+			XHeldDown = false;
+			alive = true;
+			animator.SetTrigger ("Alive");
 			gameObject.SetActive (true);
 			transform.position = SpawnPoints[UnityEngine.Random.Range(0, SpawnPoints.Length)].position;
 		}
 			
 		public void Move (Vector2 value)
 		{
-			if(gameOver)
+			if(gameOver || !alive)
 			{
-				animatorSpeed = 0;
 				return;
 			}
-		
 			Vector3 translation = new Vector3 (value.x, 0, 0);
 			
 			//translation = Camera.main.cameraToWorldMatrix.MultiplyVector (translation);
@@ -140,7 +145,7 @@ namespace QueenOfTheCastle.Character
 	
 		public void Action1Down ()
 		{
-			if(gameOver)
+			if(gameOver || !alive)
 			{
 				return;
 			}
@@ -155,7 +160,7 @@ namespace QueenOfTheCastle.Character
 
 		public void Action1Up ()
 		{
-			if(gameOver)
+			if(gameOver || !alive)
 			{
 				return;
 			}
@@ -163,7 +168,7 @@ namespace QueenOfTheCastle.Character
 
 		public void Action2Down ()
 		{
-			if(gameOver)
+			if(gameOver || !alive)
 			{
 				return;
 			}

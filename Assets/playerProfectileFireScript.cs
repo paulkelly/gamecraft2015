@@ -29,7 +29,7 @@ public class playerProfectileFireScript : MonoBehaviour {
 		
 		Vector3 aimAngle3D = aimAngle;
 		
-		currentProjectile.transform.rotation = Quaternion.LookRotation(aimAngle,new Vector3(0,0,1));
+		currentProjectile.transform.rotation = Quaternion.LookRotation(aimAngle3D,new Vector3(1,0,0));
 		
 		projectileScript pScript = currentProjectile.GetComponent<projectileScript> ();
 		

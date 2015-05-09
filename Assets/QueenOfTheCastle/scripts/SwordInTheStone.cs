@@ -4,6 +4,7 @@ using QueenOfTheCastle.Character;
 using System.Collections.Generic;
 using strange.extensions.mediation.impl;
 using QueenOfTheCastle.Common;
+using UnityEngine.UI;
 
 public class SwordInTheStone : View
 {
@@ -12,7 +13,10 @@ public class SwordInTheStone : View
 
 	private List<ICharacter> _charactersInRange = new List<ICharacter>();
 	private int progress = 0;
-	private int maxProgress = 100;
+	private int maxProgress = 30;
+
+	public CanvasGroupFader canvas;
+	public Text winMSg;
 
 	void Update()
 	{
@@ -37,7 +41,9 @@ public class SwordInTheStone : View
 
 	private void Winner(ICharacter character)
 	{
-		Debug.Log (character + " wins.");
+		canvas.Visible = true;
+		winMSg.text = character + " wins.";
+		//Debug.Log (character + " wins.");
 	}
 
 	public void PlayerEnter(ICharacter character)
