@@ -2,35 +2,38 @@
 using System.Collections;
 
 public class playerProfectileFireScript : MonoBehaviour {
-
+	
 	public Vector2 aimAngle = new Vector2 ();
 	public GameObject projectile;
 	public GameObject currentProjectile;
-
+	float projectileSpeed = 3500f;
+	public GameObject spawnPreojectilesPosition;
+	
 	// Use this for initialization
 	void Start () {
-
-
+		
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+		
 		//Vector2 aimAngle = controllerInput;
-
+		
 	}
-
+	
 	public void fireProjectile () {
 
-		currentProjectile = (GameObject)Instantiate (projectile, new Vector3 (transform.localPosition.x, transform.localPosition.y, transform.localPosition.z), Quaternion.identity);
-	
+		currentProjectile = (GameObject)Instantiate (projectile, spawnPreojectilesPosition.transform.position, Quaternion.identity);
+		
 		Vector3 aimAngle3D = aimAngle;
-	
-		currentProjectile.transform.rotation = Quaternion.Euler (aimAngle);
-	
+		
+		currentProjectile.transform.rotation = Quaternion.LookRotation(aimAngle,new Vector3(0,0,1));
+		
 		projectileScript pScript = currentProjectile.GetComponent<projectileScript> ();
-	
+		
 		pScript.moveAngle = aimAngle;
-
+		pScript.speed = projectileSpeed;
+		
 	}
 }
