@@ -21,6 +21,8 @@ namespace QueenOfTheCastle.Character
 		[Range (0,20)]
 		public float speed;
 
+		public playerProfectileFireScript projectileFire;
+
 		public Animator animator;
 
 		public float animatorSpeed
@@ -53,13 +55,22 @@ namespace QueenOfTheCastle.Character
 		}
 
 		public Transform ground;
-		private bool Grounded = false;
+		public bool Grounded = false;
+		public bool LeftGround = false;
 		void Update ()
 		{
-			//if(Physics.Raycast(ground.position, Vector3.down, 0.1f))
-			//{
+			Grounded = Physics.Raycast (ground.position, Vector3.down, 0.1f);
+			Debug.DrawLine (ground.position, ground.position + new Vector3(0, -0.1f, 0));
+			if(!LeftGround)
+			{
+				LeftGround = !Grounded;
+			}
 
-			//}
+			if(Jump && LeftGround && Grounded)
+			{
+				Jump = false;
+				LeftGround = false;
+			}
 		}
 		
 		#region ICharacter implementation
@@ -91,7 +102,7 @@ namespace QueenOfTheCastle.Character
 
 		public void Aim(Vector2 value)
 		{
-
+			projectileFire.aimAngle = value;
 		}
 
 		//private void Rotate(Vector3 dir)
@@ -105,6 +116,11 @@ namespace QueenOfTheCastle.Character
 			if(gameOver)
 			{
 				return;
+			}
+
+			if(!Jump)
+			{
+				Jump = true;
 			}
 		}
 
@@ -122,10 +138,13 @@ namespace QueenOfTheCastle.Character
 			{
 				return;
 			}
+
+			projectileFire.fireProjectile ();
 		}
 
 		public void Action2Up ()
 		{
+
 		}
 	
 		public void Action3Down ()

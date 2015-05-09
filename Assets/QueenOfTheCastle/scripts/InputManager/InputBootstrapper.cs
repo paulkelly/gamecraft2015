@@ -12,7 +12,7 @@ namespace goshdarngames.InputManager
 		
 		void Update()
 		{
-			InControl.InputManager.Update();
+			//InControl.InputManager.Update();
 		}
 	}
 }

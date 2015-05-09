@@ -20,7 +20,7 @@ public class playerProfectileFireScript : MonoBehaviour {
 
 	}
 
-	void fireProjectile () {
+	public void fireProjectile () {
 
 		currentProjectile = (GameObject)Instantiate (projectile, new Vector3 (transform.localPosition.x, transform.localPosition.y, transform.localPosition.z), Quaternion.identity);
 	
