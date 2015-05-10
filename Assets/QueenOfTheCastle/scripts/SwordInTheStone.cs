@@ -18,9 +18,16 @@ public class SwordInTheStone : View
 	public CanvasGroupFader canvas;
 	public Text winMSg;
 
+	private bool GameOver = false;
+
 	void Update()
 	{
 		hitBHint.gameObject.SetActive(_charactersInRange.Count > 0);
+
+		if(Input.GetKeyDown(KeyCode.Return))
+		{
+			Application.LoadLevel(0);
+		}
 	}
 	
 	public void BPress(ICharacter character)
@@ -43,6 +50,7 @@ public class SwordInTheStone : View
 	{
 		canvas.Visible = true;
 		winMSg.text = character + " wins.";
+		GameOver = true;
 		//Debug.Log (character + " wins.");
 	}
 

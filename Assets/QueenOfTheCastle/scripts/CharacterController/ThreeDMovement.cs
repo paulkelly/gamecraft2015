@@ -75,6 +75,13 @@ namespace QueenOfTheCastle.Character
 			if(!LeftGround)
 			{
 				LeftGround = !Physics.Raycast (ground.position, Vector3.down, 0.2f, layerMask);
+
+			}
+
+			if(Grounded == false)
+			{
+				LeftGround = true;
+				animator.SetTrigger("Fall");
 			}
 
 			if(Jump && LeftGround && Grounded)

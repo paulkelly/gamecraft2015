@@ -18,17 +18,16 @@ public class PlayerSetup : View
 
 	private void Update ()
 	{
-		foreach(InputDevice device in InControl.InputManager.Devices)
+
+		if(InControl.InputManager.ActiveDevice.MenuWasPressed)
 		{
-			if(device.AnyButton.IsPressed || device.MenuWasPressed)
+			if(players.Count == 0)
 			{
-				if(players.Count == 0)
-				{
-					startGame.Dispatch();
-				}
-				MenuPressed(device);
+				startGame.Dispatch();
 			}
+			MenuPressed(InControl.InputManager.ActiveDevice);
 		}
+
 	}
 
 	private void MenuPressed(InputDevice activeDevice)

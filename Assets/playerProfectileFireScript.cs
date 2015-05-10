@@ -9,11 +9,11 @@ public class playerProfectileFireScript : MonoBehaviour {
 	public GameObject currentProjectile;
 	float projectileSpeed = 3500f;
 	public GameObject spawnPreojectilesPosition;
+	public float projectileNumbers = 2;
 	
 	// Use this for initialization
 	void Start () {
-		
-		
+		InvokeRepeating("addProjectile", 0, 5);
 	}
 	
 	// Update is called once per frame
@@ -25,16 +25,31 @@ public class playerProfectileFireScript : MonoBehaviour {
 	
 	public void fireProjectile () {
 
-		currentProjectile = (GameObject)Instantiate (projectile, spawnPreojectilesPosition.transform.position, Quaternion.identity);
+		if (projectileNumbers > 0) {
 		
-		Vector3 aimAngle3D = aimAngle;
+			projectileNumbers -= 1;
+
+			currentProjectile = (GameObject)Instantiate (projectile, spawnPreojectilesPosition.transform.position, Quaternion.identity);
 		
-		currentProjectile.transform.rotation = Quaternion.LookRotation(aimAngle3D,new Vector3(1,0,0));
+			Vector3 aimAngle3D = aimAngle;
 		
-		projectileScript pScript = currentProjectile.GetComponent<projectileScript> ();
+			currentProjectile.transform.rotation = Quaternion.LookRotation (aimAngle3D, new Vector3 (1, 0, 0));
 		
+			projectileScript pScript = currentProjectile.GetComponent<projectileScript> ();
+		
+
 		pScript.moveAngle = aimAngle;
 		pScript.speed = projectileSpeed;
 		pScript.character = GetComponent<ICharacter> ();
+
+		}
+	}
+
+	public void addProjectile ()
+	{
+		if (projectileNumbers < 3)
+		{
+			projectileNumbers += 1;
+		}
 	}
 }
